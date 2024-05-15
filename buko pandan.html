@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Filipino Recipe</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color:#f1eaea;
+        }
+        .wrapper {
+            max-width: 2000px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .navbar {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .navbar img {
+            border-radius: 50%;
+            width: 30px;
+            height: 30px;
+        }
+        .navbar ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+        .navbar ul li {
+            margin-left: 200px;
+        }
+        .navbar ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+        .navbar ul li a.active {
+            font-weight: bold;
+        }
+        .center {
+            text-align: center;
+            margin-top: 50px;
+        }
+        .center h1, .center h2, .center p {
+            color: rgba(20, 17, 13, 0.685);
+            margin: 0;
+        }
+        .social-icons {
+            margin-top: 20px;
+        }
+        .social-icons a {
+            margin-right: 10px;
+        }
+        .social-icons img {
+            width: 50px;
+            height: 50px;
+        }
+        div {
+            text-align: justify;
+            text-justify: inter-word;
+        }
+        .footer {
+            background-color:#333;
+            padding: 10px;
+            text-align: center;
+            position: static;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+        }
+        .footer p {
+            color: #fff;
+        }
+        .comments {
+            margin-top: 50px;
+            text-align: left;
+        }
+        .comments h2 {
+            margin-bottom: 20px;
+        }
+        .comment-form input[type="text"],
+        .comment-form textarea {
+            padding: 10px;
+            margin-bottom: 10px;
+            width: calc(100% - 20px);
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .comment-form input[type="submit"] {
+            background-color: #333;
+            color: #fff;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <nav class="navbar">
+            <img class="logo" src="images/logo.png">
+            <ul>
+                <li><a class="active" href="home.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="recipe.html">Recipes</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="center">
+            <img src="images/Buko pandan.jpeg" style="display: 50px; width: 500px">
+            <h1>Buko pandan</h1>
+            <div class="text-justify">
+        <p>Ingredients:</p>
+            <p>2 cups young coconut (buko), shredded</p>
+            <p>1 pack (25g) green gulaman (gelatin) powder</p>
+            <p>4 cups water</p>
+            <p>1 pack (200ml) all-purpose cream</p>
+            <p>1 can (300ml) condensed milk</p>
+            <p>1 teaspoon pandan extract</p>
+            <p>1 cup small tapioca pearls (optional)</p>
+           
+        
+        <br>
+        <p>Instructions:</p>
+            <p>1.Prepare the Gulaman (Gelatin)</p>
+            <p>In a saucepan, dissolve the green gulaman powder in 4 cups of water. Stir until the powder is fully dissolved.</p>
+            <p>Bring the mixture to a boil while continuously stirring.</p>
+            <p>Once boiling, add 1 cup of sugar and stir until fully dissolved.</p>
+            <p>Pour the gulaman mixture into a rectangular container or mold. Let it cool and set aside until firm. Once set, cut the gulaman into cubes.</p>
+            <p>2.Prepare the Buko Pandan Mixture:</p>
+            <p>In a large bowl, combine the shredded young coconut (buko) and cooked tapioca pearls (if using).</p>
+            <p>Add the all-purpose cream, condensed milk, and pandan extract. Mix until well combined.</p>
+            <p>Gently fold in the cubed gulaman until evenly distributed throughout the mixture.</p>
+            <p>3.Chill and Serve:</p>
+            <p>Transfer the Buko Pandan mixture into a serving bowl or individual cups.</p>
+            <p>Refrigerate for at least an hour to chill before serving.</p>
+            <p>Serve cold and enjoy your delicious Buko Pandan dessert!</p>
+            <br>
+            <div class="comments">
+                <h2>Comments</h2>
+                <div class="comment-form">
+                    <form>
+                        <input type="text" name="name" placeholder="Your Name" required><br>
+                        <textarea name="comment" placeholder="Your Comment" required></textarea><br>
+                        <input type="submit" value="Post Comment">
+                    </form>
+                </div>
+            </div>
+            <footer class="footer">
+                <p>&copy; 2024 Design by: JC ANOG. All rights reserved.</p>
+            </footer>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

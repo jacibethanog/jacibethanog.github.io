@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Filipino Recipe</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color:#f1eaea;
+        }
+        .wrapper {
+            max-width: 2000px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .navbar {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .navbar img {
+            border-radius: 50%;
+            width: 30px;
+            height: 30px;
+        }
+        .navbar ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+        .navbar ul li {
+            margin-left: 200px;
+        }
+        .navbar ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+        .navbar ul li a.active {
+            font-weight: bold;
+        }
+        .center {
+            text-align: center;
+            margin-top: 50px;
+        }
+        .center h1, .center h2, .center p {
+            color: rgba(20, 17, 13, 0.685);
+            margin: 0;
+        }
+        .social-icons {
+            margin-top: 20px;
+        }
+        .social-icons a {
+            margin-right: 10px;
+        }
+        .social-icons img {
+            width: 50px;
+            height: 50px;
+        }
+        div {
+            text-align: justify;
+            text-justify: inter-word;
+        }
+        .footer {
+            background-color:#333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+            position: static;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+        }
+        .footer p {
+            color: #fff;
+        }
+        .comments {
+            margin-top: 50px;
+            text-align: left;
+        }
+        .comments h2 {
+            margin-bottom: 20px;
+        }
+        .comment-form input[type="text"],
+        .comment-form textarea {
+            padding: 10px;
+            margin-bottom: 10px;
+            width: calc(100% - 20px);
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .comment-form input[type="submit"] {
+            background-color: #333;
+            color: #fff;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <nav class="navbar">
+            <img class="logo" src="images/logo.png">
+            <ul>
+                <li><a class="active" href="home.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="recipe.html">Recipes</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="center">
+            <img src="images/halo.jpeg"alt ="My image" style="display: 50px; width: 500px">
+            <h1>Halo-halo</h1>
+            <div class="text-justify">
+        <p>Ingredients:</p>
+
+            <P>1.Crushed or shaved ice</P>
+            <P>2.Sweetened beans (red beans, chickpeas, or mung beans)</P>
+            <P>3.Sweetened fruits (such as langka or jackfruit, macapuno or sweetened coconut sport, and nata de coco or coconut jelly)</P>
+            <P>4.Sweetened kaong (sugar palm fruit)</P>
+            <P>5.Sweetened saba bananas (optional)</P>
+            <P>6.Sweetened sweet potatoes (optional)</P>
+            <P>7.Sweetened corn kernels (optional)</P>
+            <P>8.eche flan (caramel custard), sliced into cubes</P>
+            <P>9.Ube halaya (purple yam jam)</P>
+            <P>10.Pinipig (toasted rice flakes)</P>
+            <P>11.vaporated milk or condensed milk</P>
+            <P>12.Ice cream (optional)</P>
+            <P>13.Leche flan or ube halaya for garnish (optional)</P>
+            
+            <br>
+            
+            <p>Instructions:</p>
+             <p>1.Prepare the sweetened beans and fruits by draining them if canned. You can also cook fresh beans and fruits in sugar syrup until tender and sweetened.</p>
+             <p>2.Assemble all the ingredients in separate bowls or containers for easy access.</p>
+             <p>3.In a tall glass or bowl, layer the halo-halo starting with crushed or shaved ice at the bottom.</p>
+             <p>4.Add a variety of sweetened beans, fruits, and other ingredients on top of the ice. You can customize the ingredients according to your preference.</p>
+             <p>5.Drizzle a generous amount of evaporated milk or condensed milk over the halo-halo.</p>
+             <p>6.Top the halo-halo with leche flan or ube halaya for added sweetness and flavor.</p>
+             <p>7.Optional: Add a scoop of your favorite ice cream on top of the halo-halo for extra creaminess.</p>
+             <p>8.Garnish the halo-halo with pinipig for crunch and texture.</p>
+             <p>9.Serve the halo-halo immediately and mix all the ingredients together before enjoying.</p>
+             <p>10.Enjoy the refreshing and delightful flavors of halo-halo, perfect for hot summer days or any occasion!</p>
+    
+            <br>
+            <div class="comments">
+                <h2>Comments</h2>
+                <div class="comment-form">
+                    <form>
+                        <input type="text" name="name" placeholder="Your Name" required><br>
+                        <textarea name="comment" placeholder="Your Comment" required></textarea><br>
+                        <input type="submit" value="Post Comment">
+                    </form>
+                </div>
+            </div>
+            <footer class="footer">
+                <p>&copy; 2024 Design by: JC ANOG. All rights reserved.</p>
+            </footer>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

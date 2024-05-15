@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Filipino Recipe</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color:#f1eaea;
+        }
+        .wrapper {
+            max-width: 2000px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .navbar {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .navbar img {
+            border-radius: 50%;
+            width: 30px;
+            height: 30px;
+        }
+        .navbar ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+        .navbar ul li {
+            margin-left: 200px;
+        }
+        .navbar ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+        .navbar ul li a.active {
+            font-weight: bold;
+        }
+        .center {
+            text-align: center;
+            margin-top: 50px;
+        }
+        .center h1, .center h2, .center p {
+            color: rgba(20, 17, 13, 0.685);
+            margin: 0;
+        }
+        .social-icons {
+            margin-top: 20px;
+        }
+        .social-icons a {
+            margin-right: 10px;
+        }
+        .social-icons img {
+            width: 50px;
+            height: 50px;
+        }
+        div {
+            text-align: justify;
+            text-justify: inter-word;
+        }
+        .footer {
+            background-color:#333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+            position: static;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+        }
+        .footer p {
+            color: #fff;
+        }
+        .comments {
+            margin-top: 50px;
+            text-align: left;
+        }
+        .comments h2 {
+            margin-bottom: 20px;
+        }
+        .comment-form input[type="text"],
+        .comment-form textarea {
+            padding: 10px;
+            margin-bottom: 10px;
+            width: calc(100% - 20px);
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .comment-form input[type="submit"] {
+            background-color: #333;
+            color: #fff;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <nav class="navbar">
+            <img class="logo" src="images/logo.png">
+            <ul>
+                <li><a class="active" href="home.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="recipe.html">Recipes</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="center">
+            <img src="images/Mango float.jpeg" style="display: 50px; width: 500px">
+            <h1>Mango Float</h1>
+            <div class="text-justify">
+        <p>Ingredients:</p>
+
+            <p>3-4 ripe mangoes, sliced</p>
+            <p>2 cups heavy cream or all-purpose cream, chilled</p>
+            <p>1 can (14 oz) sweetened condensed milk</p>
+            <p>1 teaspoon vanilla extract</p>
+            <p>1 pack (200g) graham crackers</p>
+        <br>
+        <p>Instructions:</p>
+            <p>1.In a mixing bowl, whip the chilled heavy cream until it forms stiff peaks. You can use an electric mixer or a whisk for this step.</p>
+            <p>2.Gradually add the sweetened condensed milk and vanilla extract to the whipped cream. Gently fold the mixture until well combined. Be careful not to overmix to maintain the fluffy texture.</p>
+            <p>3.In a rectangular glass dish or any container of your choice, arrange a single layer of graham crackers at the bottom. You may need to break some crackers to fit the edges.</p>
+            <p>4.Spread a layer of the whipped cream mixture over the graham crackers, making sure to cover them evenly.</p>
+            <p>5.Place a layer of sliced mangoes on top of the cream mixture, covering the entire surface.</p>
+             <p>6.Repeat the layers: graham crackers, cream mixture, and mangoes until you reach the desired height or run out of ingredients. The top layer should be the cream mixture.</p>
+            <p>7.Cover the dish with plastic wrap or aluminum foil and refrigerate for at least 4 hours or overnight to allow the flavors to meld and the graham crackers to soften.</p>
+            <p>8.Before serving, you can optionally garnish the Mango Float with additional mango slices or crushed graham crackers for added texture.</p>
+            <p>9.Slice and serve the Mango Float chilled. Enjoy!</p>
+            <br>
+            <div class="comments">
+                <h2>Comments</h2>
+                <div class="comment-form">
+                    <form>
+                        <input type="text" name="name" placeholder="Your Name" required><br>
+                        <textarea name="comment" placeholder="Your Comment" required></textarea><br>
+                        <input type="submit" value="Post Comment">
+                    </form>
+                </div>
+            </div>
+            <footer class="footer">
+                <p>&copy; 2024 Design by: JC ANOG. All rights reserved.</p>
+            </footer>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

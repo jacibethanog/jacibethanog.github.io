@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Filipino Recipe</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color:#f1eaea;
+        }
+        .wrapper {
+            max-width: 2000px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .navbar {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .navbar img {
+            border-radius: 50%;
+            width: 30px;
+            height: 30px;
+        }
+        .navbar ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+        .navbar ul li {
+            margin-left: 200px;
+        }
+        .navbar ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+        .navbar ul li a.active {
+            font-weight: bold;
+        }
+        .center {
+            text-align: center;
+            margin-top: 50px;
+        }
+        .center h1, .center h2, .center p {
+            color: rgba(20, 17, 13, 0.685);
+            margin: 0;
+        }
+        .social-icons {
+            margin-top: 20px;
+        }
+        .social-icons a {
+            margin-right: 10px;
+        }
+        .social-icons img {
+            width: 50px;
+            height: 50px;
+        }
+        div {
+            text-align: justify;
+            text-justify: inter-word;
+        }
+        .footer {
+            background-color:#333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+            position: static;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+        }
+        .footer p {
+            color: #fff;
+        }
+        .comments {
+            margin-top: 50px;
+            text-align: left;
+        }
+        .comments h2 {
+            margin-bottom: 20px;
+        }
+        .comment-form input[type="text"],
+        .comment-form textarea {
+            padding: 10px;
+            margin-bottom: 10px;
+            width: calc(100% - 20px);
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .comment-form input[type="submit"] {
+            background-color: #333;
+            color: #fff;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <nav class="navbar">
+            <img class="logo" src="images/logo.png">
+            <ul>
+                <li><a class="active" href="home.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="recipe.html">Recipes</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="center">
+            <img src="images/letche.jpeg"alt= "My image" style="display: 50px; width: 500px">
+            <h1>Leche Plan</h1>
+            <div class="text-justify">
+        <p>Ingredients:</p>
+
+            <p>10 egg yolks</p>
+            <p>1 can (12 oz) condensed milk</p>
+            <p>1 can (14 oz) evaporated milk</p>
+            <p>1 cup granulated sugar</p>
+            <p>1 teaspoon vanilla extract</p>
+            <p>3/4 cup granulated sugar</p>
+            <P> 1/4 cup water</P>
+            <br>
+            
+            <p>Instructions:</p>
+            <p>1.Preheat your oven to 350°F (175°C)</p>
+            <p>2.Prepare the caramel: In a saucepan,</p>
+            <p>combine the 3/4 cup sugar and water over</p>
+            <P>medium heat.Stir until the sugar is dissolved,</P>
+            <p>then let it cook without stirring until it turns amber in color, about 8-10 minutes.</p> 
+            <p>Remove from heat and carefully pour the caramel into individual llaneras</p> 
+            <p>(caramel molds), tilting the molds to evenly coat the bottom. Set aside to cool and harden.</p>
+            <p>3.In a bowl, whisk together the egg yolks, condensed milk, evaporated milk, and vanilla extract until well combined.</p>
+            <P>4.Strain the egg mixture through a fine-mesh sieve to remove any lumps.</P>
+            <p>5.Pour the strained mixture into the prepared llaneras with caramel, filling them almost to the top.</p>
+            <P>6.Cover each llanera tightly with aluminum foil.</P>
+            <p>7.Place the llaneras in a baking pan and create a water bath by pouring hot water into the pan until it reaches halfway up the sides of the llaneras.</p>
+            <p>8.Carefully transfer the baking pan to the preheated oven and bake for about 45-50 minutes, or until the flan is set but still jiggles slightly in the center.</p>
+            <p>9.Remove the llaneras from the water bath and let them cool to room temperature.</p>
+            <p>10.Once cooled, refrigerate the flan for at least 4 hours or overnight to chill and set completely.</p>
+            <p>11.To serve, run a knife around the edges of each llanera to loosen the flan. Place a serving plate on top of the llanera and invert it to release the flan onto the plate, allowing the caramel to drizzle over the top.</p>
+            <p>12.Slice and enjoy your delicious leche flan!</p>
+            <br>
+        
+            <div class="comments">
+                <h2>Comments</h2>
+                <div class="comment-form">
+                    <form>
+                        <input type="text" name="name" placeholder="Your Name" required><br>
+                        <textarea name="comment" placeholder="Your Comment" required></textarea><br>
+                        <input type="submit" value="Post Comment">
+                    </form>
+                </div>
+            </div>
+            <footer class="footer">
+                <p>&copy; 2024 Design by: JC ANOG. All rights reserved.</p>
+            </footer>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Filipino Recipe</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color:#f1eaea;
+        }
+        .wrapper {
+            max-width: 2000px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .navbar {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .navbar img {
+            border-radius: 50%;
+            width: 30px;
+            height: 30px;
+        }
+        .navbar ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+        .navbar ul li {
+            margin-left: 200px;
+        }
+        .navbar ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+        .navbar ul li a.active {
+            font-weight: bold;
+        }
+        .center {
+            text-align: center;
+            margin-top: 50px;
+        }
+        .center h1, .center h2, .center p {
+            color: rgba(20, 17, 13, 0.685);
+            margin: 0;
+        }
+        .social-icons {
+            margin-top: 20px;
+        }
+        .social-icons a {
+            margin-right: 10px;
+        }
+        .social-icons img {
+            width: 50px;
+            height: 50px;
+        }
+        div {
+            text-align: justify;
+            text-justify: inter-word;
+        }
+        .footer {
+            background-color:#333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+            position: static;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+        }
+        .footer p {
+            color: #fff;
+        }
+        .comments {
+            margin-top: 50px;
+            text-align: left;
+        }
+        .comments h2 {
+            margin-bottom: 20px;
+        }
+        .comment-form input[type="text"],
+        .comment-form textarea {
+            padding: 10px;
+            margin-bottom: 10px;
+            width: calc(100% - 20px);
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .comment-form input[type="submit"] {
+            background-color: #333;
+            color: #fff;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <nav class="navbar">
+            <img class="logo" src="images/logo.png">
+            <ul>
+                <li><a class="active" href="home.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="recipe.html">Recipes</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="center">
+            <img src="images/pinakbet.jpeg" style="display: 50px; width: 500px">
+            <h1>Pinakbet</h1>
+            <div class="text-justify">
+        <p>Ingredients:</p>
+            <p>1 medium-sized bitter melon (ampalaya), sliced</p>
+            <p>1 medium-sized eggplant, sliced</p>
+            <p>1 medium-sized squash (kalabasa), cubed</p>
+            <p>10-12 pieces okra, ends trimmed</p>
+            <p>1 cup string beans (sitaw), cut into 2-inch lengths</p>
+            <p>1 medium-sized tomato, diced</p>
+            <p>1 medium-sized onion, chopped</p>
+            <p>3-4 cloves garlic, minced</p>
+            <p>1/4 cup shrimp paste (bagoong)</p>
+            <p>2 tablespoons cooking oil</p>
+            <p>1 cup water</p>
+            <p>Salt and pepper to taste</p>
+            
+
+            
+        <br>
+        <p>Instructions:</p>
+            <p>1.Heat cooking oil in a large pan or wok over medium heat. Saute garlic until golden brown, then add onions and cook until translucent.</p>
+            <p>2.Add tomatoes to the pan and cook until softened.</p>
+            <p>3.Stir in the shrimp paste (bagoong) and cook for 1-2 minutes to release its flavors.</p>
+            <p>4.Add the squash (kalabasa) to the pan and cook for 3-4 minutes until slightly tender.</p>
+            <p>5.Add the bitter melon (ampalaya) and cook for another 2-3 minutes.</p>
+            <p>6.Pour in the water and bring to a simmer. Cover the pan and cook for 5-7 minutes until the vegetables are halfway cooked.</p>
+            <p>7.Add the eggplant, okra, and string beans to the pan. Stir gently to combine with the other vegetables.</p>
+            <p>8.Cover the pan again and continue simmering until all the vegetables are tender, about 5-7 minutes.</p>
+            <p>9.Season with salt and pepper to taste, adjusting the flavors as needed.</p>
+            <p>10.Once the vegetables are cooked and the flavors have melded together, remove from heat and transfer to a serving dish.</p>
+            <p>11.Serve the Pinakbet hot with steamed rice. Enjoy the delicious and nutritious Filipino vegetable dish!</p>
+           
+
+            
+            <br>
+            <div class="comments">
+                <h2>Comments</h2>
+                <div class="comment-form">
+                    <form>
+                        <input type="text" name="name" placeholder="Your Name" required><br>
+                        <textarea name="comment" placeholder="Your Comment" required></textarea><br>
+                        <input type="submit" value="Post Comment">
+                    </form>
+                </div>
+            </div>
+            <footer class="footer">
+                <p>&copy; 2024 Design by: JC ANOG. All rights reserved.</p>
+            </footer>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

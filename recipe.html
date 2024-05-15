@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Filipino Recipe</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f1eaea;
+        }
+        .wrapper {
+            max-width: 2000px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .navbar {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .navbar img {
+            border-radius: 50%;
+            width: 30px;
+            height: 30px;
+        }
+        .navbar ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            align-items: center;
+        }
+        .navbar ul li {
+            margin-left: 200px;
+        }
+        .navbar ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+        .navbar ul li a.active {
+            font-weight: bold;
+        }
+        .search-bar {
+            margin: 20px 0;
+            text-align: center;
+        }
+        .search-bar input[type="text"] {
+            padding: 10px;
+            font-size: 16px;
+            width: 300px;
+        }
+        .center {
+            text-align: center;
+            margin-top: 50px;
+        }
+        .center h1, 
+        .center h2, 
+        .center p {
+            color: rgba(20, 17, 13, 0.685);
+            margin: 0;
+        }
+        .social-icons {
+            margin-top: 20px;
+        }
+        .social-icons a {
+            margin-right: 10px;
+        }
+        .social-icons img {
+            width: 50px;
+            height: 50px;
+        }
+        .card {
+             box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+        }
+
+        .container {
+            padding: 0 10px;
+        }
+
+        .container::after, .row::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+        .title {
+            color: grey;
+        }
+        .button {
+            border: none;
+            outline: 0;
+            display: inline-block;
+            padding: 5px;
+            color: white;
+            background-color: #000;
+            text-align: center;
+            cursor: pointer;
+            width: 50%;
+        }
+
+        .button:hover {
+            background-color: #555;
+        }
+        .footer {
+            background-color: #333;
+            padding: 10px;
+            text-align: center;
+            position: static;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+        }
+        .footer p {
+          color: #fff;
+        }
+        .column {
+            float: left;
+            width: 30.3%;
+            margin-bottom: 10px;
+            padding: 0 8px;
+        }
+
+        @media screen and (max-width: 650px) {
+        .column {
+        width: 100%;
+        display: block;
+        }
+        }
+    </style>
+    <script>
+        function searchRecipes() {
+            const query = document.getElementById('search-input').value.toLowerCase();
+            const cards = document.getElementsByClassName('card');
+            Array.from(cards).forEach(card => {
+                const title = card.getElementsByTagName('h2')[0].innerText.toLowerCase();
+                if (title.includes(query)) {
+                    card.style.display = '';
+                } else {
+                    card.style.display = 'none';
+                }
+            });
+        }
+    </script>
+</head>
+<body>
+    <div class="wrapper">
+        <nav class="navbar">
+            <img class="logo" src="images/logo.png">
+            <ul>
+                <li><a class="active" href="home.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="recipe.html">Recipes</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <br>
+        <div class="search-bar">
+            <input type="text" id="search-input" onkeyup="searchRecipes()" placeholder="Search recipes...">
+        </div>
+        <h1 class="title">Filipino Dish</h1>
+        <div class="column">
+            <div class="card">
+              <img src="images/pork sisig.jpeg" alt="Pork Sisig" style="width:100%">
+              <div class="container">
+                <h2>Pork Sisig</h2>
+                <p><a href="pork sisig.html">Pork Sisig</a></p>
+              </div>
+            </div>
+        </div>
+        <div class="column">
+            <div class="card">
+              <img src="images/pata2.jpeg" alt="Crispy Pata" style="width:100%">
+              <div class="container">
+                <h2>Crispy Pata</h2>
+                <p><a href="pata.html">Crispy Pata</a></p>
+              </div>
+            </div>
+        </div>
+        <div class="column">
+            <div class="card">
+              <img src="images/nilagang baka.jpeg" alt="Bulalo" style="width:100%">
+              <div class="container">
+                <h2>Bulalo</h2>
+                <p><a href="bulalo.html">Bulalo</a></p>
+              </div>
+            </div>
+        </div>
+        <div class="column">
+            <div class="card">
+              <img src="images/dinakdakan.jpeg" alt="Dinakdakan" style="width:100%">
+              <div class="container">
+                <h2>Dinakdakan</h2>
+                <p><a href="dinakdakan.html">Dinakdakan</a></p>
+              </div>
+            </div>
+        </div>  
+        <div class="column">
+            <div class="card">
+              <img src="images/tinola.jpeg" alt="Tinola" style="width:100%">
+              <div class="container">
+                <h2>Tinola</h2>
+                <p><a href="tinola.html">Tinola</a></p>
+              </div>
+            </div>
+        </div>
+        <div class="column">
+            <div class="card">
+              <img src="images/pakbet.jpeg" alt="Pinakbet" style="width:100%">
+              <div class="container">
+                <h2>Pinakbet</h2>
+                <p><a href="Pinakbet.html">Pinakbet</a></p>
+              </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="column">
+              <div class="card">
+                <img src="images/letche.jpeg" alt="Leche Flan" style="width:100%">
+                <div class="container">
+                  <h2>Leche Flan</h2>
+                  <p><a href="Leche plan Recipe.html">Leche Flan Recipe</a></p>
+                </div>
+              </div>
+            </div>
+            <div class="column">
+              <div class="card">
+                <img src="images/Buko pandan.jpeg" alt="Buko Pandan" style="width:100%">
+                <div class="container">
+                  <h2>Buko Pandan</h2>
+                  <p><a href="buko pandan.html">Buko Pandan Recipe</a></p>
+                </div>
+              </div>
+            </div>
+            <div class="column">
+                <div class="card">
+                  <img src="images/Mango float.jpeg" alt="Mango Float" style="width:100%">
+                  <div class="container">
+                    <h2>Mango Float</h2>
+                    <p><a href="mango float.html">Mango Float Recipe</a></p>
+                  </div>
+                </div>
+            </div>
+            <div class="column">
+                <div class="card">
+                  <img src="images/buko salad.jpeg" alt="Buko Salad" style="width:100%">
+                  <div class="container">
+                    <h2>Buko Salad</h2>
+                    <p><a href="buko salad.html">Buko Salad Recipe</a></p>
+                  </div>
+                </div>
+            </div>
+            <div class="column">
+                <div class="card">
+                  <img src="images/casaba cake.jpeg" alt="Cassava Cake" style="width:100%">
+                  <div class="container">
+                    <h2>Cassava Cake</h2>
+                    <p><a href="Cassava cake.html">Cassava Cake Recipe</a></p>
+                  </div>
+                </div>
+            </div>
+            <div class="column">
+                <div class="card">
+                  <img src="images/bilo bilo.jpeg" alt="Bilo-Bilo" style="width:100%">
+                  <div class="container">
+                    <h2>Bilo-Bilo</h2>
+                    <p><a href="Bilo-bilo.html">Bilo-Bilo Recipe</a></p>
+                  </div>
+                </div>
+            </div>
+            <div class="column">
+                <div class="card">
+                  <img src="images/yema ball.jpeg" alt="Yema" style="width:100%">
+                  <div class="container">
+                    <h2>Yema</h2>
+                    <p><a href="yema.html">Yema Ball Recipe</a></p>
+                  </div>
+                </div>
+            </div>
+            <div class="column">
+                <div class="card">
+                  <img src="images/Puto.jpeg" alt="Puto" style="width:100%">
+                  <div class="container">
+                    <h2>Puto</h2>
+                    <p><a href="Puto.html">Puto Recipe</a></p>
+                  </div>
+                </div>
+            </div>
+            <div class="column">
+                <div class="card">
+                  <img src="images/butchi.jpeg" alt="Butchi" style="width: 100%;">
+                  <div class="container">
+                    <h2>Butchi</h2> <p><a href="butchi.html">Butchi</a></p>
+                  </div>
+                </div>
+            </div>
+            <div class="column">
+              <div class="card">
+                <img src="images/maha.jpeg" alt="Maja Blanca" style="width: 100%;">
+                <div class="container">
+                  <h2><a href="Maja blanca.html">Maja Blanca</a></h2>
+                </div>
+              </div>
+            </div>
+        </div>
+        <footer class="footer">
+            <p>&copy; 2024 Design by: JC ANOG. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>

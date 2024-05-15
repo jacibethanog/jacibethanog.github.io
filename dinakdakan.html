@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Filipino Recipe</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color:#f1eaea;
+        }
+        .wrapper {
+            max-width: 2000px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .navbar {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .navbar img {
+            border-radius: 50%;
+            width: 30px;
+            height: 30px;
+        }
+        .navbar ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+        .navbar ul li {
+            margin-left: 200px;
+        }
+        .navbar ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+        .navbar ul li a.active {
+            font-weight: bold;
+        }
+        .center {
+            text-align: center;
+            margin-top: 50px;
+        }
+        .center h1, .center h2, .center p {
+            color: rgba(20, 17, 13, 0.685);
+            margin: 0;
+        }
+        .social-icons {
+            margin-top: 20px;
+        }
+        .social-icons a {
+            margin-right: 10px;
+        }
+        .social-icons img {
+            width: 50px;
+            height: 50px;
+        }
+        div {
+            text-align: justify;
+            text-justify: inter-word;
+        }
+        .footer {
+            background-color:#333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+            position: static;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+        }
+        .footer p {
+            color: #fff;
+        }
+        .comments {
+            margin-top: 50px;
+            text-align: left;
+        }
+        .comments h2 {
+            margin-bottom: 20px;
+        }
+        .comment-form input[type="text"],
+        .comment-form textarea {
+            padding: 10px;
+            margin-bottom: 10px;
+            width: calc(100% - 20px);
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .comment-form input[type="submit"] {
+            background-color: #333;
+            color: #fff;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <nav class="navbar">
+            <img class="logo" src="images/logo.png">
+            <ul>
+                <li><a class="active" href="home.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="recipe.html">Recipes</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="center">
+            <img src="images/dinakdakan.jpeg" style="display: 50px; width: 500px">
+            <h1>Dinakdakan</h1>
+            <div class="text-justify">
+        <p>Ingredients:</p>
+            <p>1 lb pork face (cheeks), ears, and/or liver, boiled and grilled</p>
+            <p>1 medium-sized red onion, finely chopped</p>
+            <p>2-3 pieces green chili peppers (siling pangsigang), chopped</p>
+            <p>3 tablespoons calamansi juice or lemon juice</p>
+            <p>3 tablespoons vinegar</p>
+            <p>3 tablespoons mayonnaise</p>
+            <p>Salt and pepper to taste</p>
+            <p>2 tablespoons vegetable oil</p>
+            
+
+            
+        <br>
+        <p>Instructions:</p>
+            <p>1.Boil the pork parts in water with salt until tender. Drain and grill over hot charcoal until lightly charred. Let them cool, then chop into small pieces.</p>
+            <p>2.In a mixing bowl, combine the chopped grilled pork parts, chopped onions, and chopped green chili peppers.</p>
+            <p>3.In a separate bowl, mix together calamansi juice, vinegar, mayonnaise, salt, and pepper to make the dressing.</p>
+            <p>4.Pour the dressing over the pork mixture and toss until well combined. Adjust seasoning according to taste.</p>
+            <p>5.Heat vegetable oil in a pan over medium heat. Once hot, add the pork mixture and cook for about 3-5 minutes, stirring occasionally, until heated through.</p>
+            <p>6.Transfer the cooked Dinakdakan to a serving plate and garnish with additional chopped onions and chili peppers if desired.</p>
+            <p>7.Serve hot with steamed rice or as a pulutan (appetizer) with your favorite beverage. Enjoy your delicious Dinakdakan!</p>
+            <p></p>
+           
+
+            
+            <br>
+            <div class="comments">
+                <h2>Comments</h2>
+                <div class="comment-form">
+                    <form>
+                        <input type="text" name="name" placeholder="Your Name" required><br>
+                        <textarea name="comment" placeholder="Your Comment" required></textarea><br>
+                        <input type="submit" value="Post Comment">
+                    </form>
+                </div>
+            </div>
+            <footer class="footer">
+                <p>&copy; 2024 Design by: JC ANOG. All rights reserved.</p>
+            </footer>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

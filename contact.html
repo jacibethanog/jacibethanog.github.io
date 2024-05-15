@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Filipino Recipe</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color:#f1eaea;
+        }
+        .wrapper {
+            max-width: 2000px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .navbar {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .navbar img {
+            border-radius: 50%;
+            width: 30px;
+            height: 30px;
+            margin-right: 20px;
+        }
+        .navbar ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+        .navbar ul li {
+            margin-left: 200px;
+        }
+        .navbar ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+        .navbar ul li a.active {
+            font-weight: bold;
+        }
+        .center {
+            text-align: justify;
+            margin-top: 50px;
+            text-indent: 20px;
+        }
+        .center h1, .center h2, .center p {
+            color: rgba(20, 17, 13, 0.685);
+            margin: 0;
+        }
+        .social-icons {
+            margin-top: 20px;
+            text-align: center;
+        }
+        .social-icons a {
+            margin-right: 10px;
+        }
+        .social-icons img {
+            width: 30px;
+            height: 30px;
+        }
+        .footer {
+            background-color:#333;
+            padding: 10px;
+            text-align: center;
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+        }
+        .footer p {
+            color: #fff;
+        }
+        .email-form {
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        .email-form input[type="email"],
+        .email-form textarea,
+        .email-form input[type="submit"] {
+            padding: 10px;
+            margin-right: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            display: block;
+            width: calc(100% - 20px);
+            margin-bottom: 10px;
+        }
+        .email-form input[type="submit"] {
+            background-color: #333;
+            color: #fff;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <nav class="navbar">
+            <img class="logo" src="images/logo.png">
+
+            <ul>
+                <li><a class="active" href="home.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="recipe.html">Recipes</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <div class="center">
+        <div class="wrapper">
+            <center>
+            <img src="images/bg.jpeg" alt="My image" style="display: 50px; width: 200px">
+            </center>
+            <h2 style="text-align: center;">Stay connected with me</h2> <!-- Centered "Stay connected with me" text -->
+
+            <div class="email-form">
+                <form action="mailto:20238534@s.ubaguio.edu" method="post" enctype="text/plain">
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="message" placeholder="Your Message" required></textarea>
+                    <input type="submit" value="Send Message">
+                </form>
+            </div>
+
+            <div class="social-icons">
+                <a href="https://www.instagram.com/?hl=en">
+                    <img src="images/insta.jpeg" alt="">
+                </a>
+                <a href="https://www.facebook.com/">
+                    <img src="images/Fb.png" alt="">
+                </a>
+                <a href="https://www.tiktok.com/foryou?lang=en">
+                    <img src="images/tiktok.png" alt="">
+                </a>
+                <a href="https://www.youtube.com/">
+                    <img src="images/YT.png"  alt="">
+                </a>
+                <a href="https://web.telegram.org/a/">
+                    <img src="images/Tele.png" alt="">
+                </a>
+            </div>
+
+            <footer class="footer">
+                <p>&copy; 2024 Design by: JC ANOG. All rights reserved.</p>
+            </footer>
+        </div>
+    </div>
+</body>
+</html>

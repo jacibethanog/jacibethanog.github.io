@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Filipino Recipe</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color:#f1eaea;
+        }
+        .wrapper {
+            max-width: 2000px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .navbar {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .navbar img {
+            border-radius: 50%;
+            width: 30px;
+            height: 30px;
+        }
+        .navbar ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+        .navbar ul li {
+            margin-left: 200px;
+        }
+        .navbar ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+        .navbar ul li a.active {
+            font-weight: bold;
+        }
+        .center {
+            text-align: center;
+            margin-top: 50px;
+        }
+        .center h1, .center h2, .center p {
+            color: rgba(20, 17, 13, 0.685);
+            margin: 0;
+        }
+        .social-icons {
+            margin-top: 20px;
+        }
+        .social-icons a {
+            margin-right: 10px;
+        }
+        .social-icons img {
+            width: 50px;
+            height: 50px;
+        }
+        .footer {
+            background-color:#333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+            position: static;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+        }
+        div {
+            text-align: justify;
+            text-justify: inter-word;
+        }
+        .comments {
+            margin-top: 50px;
+            text-align: left;
+        }
+        .comments h2 {
+            margin-bottom: 20px;
+        }
+        .comment-form input[type="text"],
+        .comment-form textarea {
+            padding: 10px;
+            margin-bottom: 10px;
+            width: calc(100% - 20px);
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .comment-form input[type="submit"] {
+            background-color: #333;
+            color: #fff;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <nav class="navbar">
+            <img class="logo" src="images/logo.png">
+            <ul>
+                <li><a class="active" href="home.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="recipe.html">Recipes</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="center">
+            <center>
+            <img src="images/bilo bilo.jpeg" style="display: block; width: 500px">
+            </center>
+            <h1>Bilo-bilo</h1>
+            <div class="text-justify">
+                <p>Ingredients:</p>
+                <p>1 cup glutinous rice flour</p>
+                <p>1/2 cup water</p>
+                <p>1/2 cup sweet potato, peeled and diced into small cubes</p>
+                <p>1/2 cup taro (gabi), peeled and diced into small cubes</p>
+                <p>1/2 cup ripe jackfruit (langka), sliced into strips</p>
+                <p>1/2 cup saba banana, sliced into rounds</p>
+                <p>1/2 cup small tapioca pearls (sago), cooked according to package instructions</p>
+                <p>4 cups coconut milk</p>
+                <p>1/2 cup brown sugar (adjust to taste)</p>
+                <p>Pandan leaves (optional, for flavor)</p>
+
+                <br>
+                
+                <p>Instructions:</p>
+                <p>1. In a bowl, mix the glutinous rice flour with water to form a smooth dough. Roll the dough into small balls (about 1-inch in diameter) to make the bilo-bilo. Set aside.</p>
+                <p>2. In a pot, combine the coconut milk and pandan leaves (if using) over medium heat. Bring to a simmer.</p>
+                <p>3. Add the diced sweet potato and taro to the pot and cook until slightly tender, about 5-7 minutes.</p>
+                <p>4. Stir in the sliced jackfruit, saba banana, and cooked tapioca pearls (sago). Let it simmer for another 5 minutes.</p>
+                <p>5. Carefully drop the bilo-bilo balls into the pot and cook until they float to the surface, about 3-5 minutes.</p>
+                <p>6. Once the bilo-bilo balls are cooked and the fruits are tender, add the brown sugar to the pot. Stir well until the sugar is dissolved and the mixture is slightly thickened.</p>
+                <p>7. Remove the pandan leaves, if used, and adjust the sweetness according to your taste preference by adding more sugar if needed.</p>
+                <p>8. Serve the bilo-bilo hot or cold in bowls, making sure to include a variety of fruits and bilo-bilo balls in each serving.</p>
+                <p>9. Feel free to customize this recipe by adding other ingredients like sweetened plantains, sweet potato, or yams. You can also adjust the consistency of the coconut milk to your liking by adding more or less depending on how thick you want the dessert to be.</p>
+            </div>
+        </div>
+        <div class="comments">
+            <h2>Comments</h2>
+            <div class="comment-form">
+                <form>
+                    <input type="text" name="name" placeholder="Your Name" required><br>
+                    <textarea name="comment" placeholder="Your Comment" required></textarea><br>
+                    <input type="submit" value="Post Comment">
+                </form>
+            </div>
+        </div>
+        <footer class="footer">
+            <p>&copy; 2024 Design by: JC ANOG. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>

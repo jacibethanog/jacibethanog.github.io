@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Filipino Recipe</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color:#f1eaea;
+        }
+        .wrapper {
+            max-width: 2000px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .navbar {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .navbar img {
+            border-radius: 50%;
+            width: 30px;
+            height: 30px;
+        }
+        .navbar ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+        .navbar ul li {
+            margin-left: 200px;
+        }
+        .navbar ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+        .navbar ul li a.active {
+            font-weight: bold;
+        }
+        .center {
+            text-align: center;
+            margin-top: 50px;
+        }
+        .center h1, .center h2, .center p {
+            color: rgba(20, 17, 13, 0.685);
+            margin: 0;
+        }
+        .social-icons {
+            margin-top: 20px;
+        }
+        .social-icons a {
+            margin-right: 10px;
+        }
+        .social-icons img {
+            width: 50px;
+            height: 50px;
+        }
+        div {
+            text-align: justify;
+            text-justify: inter-word;
+        }
+        .footer {
+            background-color:#333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+            position: static;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+        }
+        .footer p {
+            color: #fff;
+        }
+        .comments {
+            margin-top: 50px;
+            text-align: left;
+        }
+        .comments h2 {
+            margin-bottom: 20px;
+        }
+        .comment-form input[type="text"],
+        .comment-form textarea {
+            padding: 10px;
+            margin-bottom: 10px;
+            width: calc(100% - 20px);
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .comment-form input[type="submit"] {
+            background-color: #333;
+            color: #fff;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <nav class="navbar">
+            <img class="logo" src="images/logo.png">
+            <ul>
+                <li><a class="active" href="home.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="recipe.html">Recipes</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="center">
+            <img src="images/nilagang baka.jpeg" style="display: 50px; width: 500px">
+            <h1>Bulalo</h1>
+            <div class="text-justify">
+        <p>Ingredients:</p>
+            <p>2 lbs beef shanks</p>
+            <p>1 onion, quartered</p>
+            <p>3 cloves garlic, crushed</p>
+            <p>1 tbsp peppercorns</p>
+            <p>Fish sauce (patis) or salt, to taste</p>
+            <p>Water</p>
+            <p>2 corn on the cob, cut into 2-inch pieces</p>
+            <p>1 large potato, peeled and quartered</p>
+            <p>1 small cabbage, quartered</p>
+            <p>Green onions, chopped (for garnish)</p>
+            <p>Salt and pepper to taste</p>
+            <p></p>
+            
+
+            
+        <br>
+        <p>Instructions:</p>
+            <p>1.In a large pot, place the beef shanks, onion, garlic, and peppercorns. Add enough water to cover the beef shanks. Bring to a boil over medium-high heat, then reduce heat to low and simmer for about 2-3 hours or until the beef is tender. Skim off any scum that rises to the surface.</p>
+            <p>2.Once the beef is tender, season the broth with fish sauce or salt according to your taste preference.</p>
+            <p>3.Add the corn and potatoes to the pot and simmer for another 10-15 minutes or until the vegetables are tender.</p>
+            <p>4.Add the cabbage and cook for an additional 5 minutes or until the cabbage is wilted but still crisp.</p>
+            <p>5.Adjust the seasoning with salt and pepper if needed.</p>
+            <p>6.Serve hot in bowls, garnished with chopped green onions. Enjoy your delicious Bulalo soup!</p>
+
+            
+            <br>
+            <div class="comments">
+                <h2>Comments</h2>
+                <div class="comment-form">
+                    <form>
+                        <input type="text" name="name" placeholder="Your Name" required><br>
+                        <textarea name="comment" placeholder="Your Comment" required></textarea><br>
+                        <input type="submit" value="Post Comment">
+                    </form>
+                </div>
+            </div>
+
+            <footer class="footer">
+                <p>&copy; 2024 Design by: JC ANOG. All rights reserved.</p>
+            </footer>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

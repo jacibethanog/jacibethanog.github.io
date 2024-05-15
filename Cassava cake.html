@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Filipino Recipe</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color:#f1eaea;
+        }
+        .wrapper {
+            max-width: 2000px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .navbar {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .navbar img {
+            border-radius: 50%;
+            width: 30px;
+            height: 30px;
+        }
+        .navbar ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+        .navbar ul li {
+            margin-left: 200px;
+        }
+        .navbar ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+        .navbar ul li a.active {
+            font-weight: bold;
+        }
+        .center {
+            text-align: center;
+            margin-top: 50px;
+        }
+        .center h1, .center h2, .center p {
+            color: rgba(20, 17, 13, 0.685);
+            margin: 0;
+        }
+        .social-icons {
+            margin-top: 20px;
+        }
+        .social-icons a {
+            margin-right: 10px;
+        }
+        .social-icons img {
+            width: 50px;
+            height: 50px;
+        }
+        div {
+            text-align: justify;
+            text-justify: inter-word;
+        }
+        .footer {
+            background-color:#333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+            position: static;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+        }
+        .footer p {
+            color: #fff;
+        }
+        .comments {
+            margin-top: 50px;
+            text-align: left;
+        }
+        .comments h2 {
+            margin-bottom: 20px;
+        }
+        .comment-form input[type="text"],
+        .comment-form textarea {
+            padding: 10px;
+            margin-bottom: 10px;
+            width: calc(100% - 20px);
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .comment-form input[type="submit"] {
+            background-color: #333;
+            color: #fff;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <nav class="navbar">
+            <img class="logo" src="images/logo.png">
+            <ul>
+                <li><a class="active" href="home.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="recipe.html">Recipes</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="center">
+            <img src="images/casaba cake.jpeg" style="display: 50px; width: 500px">
+            <h1>Cassava cake</h1>
+            <div class="text-justify">
+        <p>Ingredients:</p>
+            <p>2 cups grated cassava (fresh or frozen)</p>
+            <p>1 can (14 oz) condensed milk</p>
+            <p>1 can (13.5 oz) coconut milk</p>
+            <p>1/2 cup sugar</p>
+            <p>3 eggs</p>
+            <p>1/4 cup butter, melted</p>
+            <p>1/2 teaspoon vanilla extract</p>
+            <p>1/4 cup grated cheese (optional, for topping)</p>
+            <p>1/4 cup condensed milk (optional, for topping)</p>
+            
+
+            
+        <br>
+        <p>Instructions:</p>
+            <p>1.Preheat your oven to 350°F (175°C). Grease a baking dish or line it with banana leaves for an authentic touch.</p>
+            <p>2.In a large mixing bowl, combine the grated cassava, condensed milk, coconut milk, sugar, eggs, melted butter, and vanilla extract. Mix until well combined.</p>
+            <p>3.Pour the mixture into the prepared baking dish.</p>
+            <p>4.Bake in the preheated oven for about 45-55 minutes or until set and the edges are lightly browned.</p>
+            <p>5.If desired, sprinkle grated cheese on top of the cassava cake during the last 10-15 minutes of baking.</p>
+            <p>6.Once baked, remove the cassava cake from the oven and let it cool slightly.</p>
+            <p>7.Drizzle condensed milk on top before serving, if desired.</p>
+            <p>8.Slice and serve the cassava cake warm or at room temperature. Enjoy your delicious Filipino dessert!</p>
+            <p>9.Feel free to adjust the sweetness according to your preference by adding more or less sugar or condensed milk. You can also add toppings like macapuno (young coconut) strings or salted egg slices for extra flavor. Enjoy your cassava cake!</p>
+            
+            <br>
+            <div class="comments">
+                <h2>Comments</h2>
+                <div class="comment-form">
+                    <form>
+                        <input type="text" name="name" placeholder="Your Name" required><br>
+                        <textarea name="comment" placeholder="Your Comment" required></textarea><br>
+                        <input type="submit" value="Post Comment">
+                    </form>
+                </div>
+            </div>
+            <footer class="footer">
+                <p>&copy; 2024 Design by: JC ANOG. All rights reserved.</p>
+            </footer>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

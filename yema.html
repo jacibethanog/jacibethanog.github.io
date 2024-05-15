@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Filipino Recipe</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color:#f1eaea;
+        }
+        .wrapper {
+            max-width: 2000px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .navbar {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .navbar img {
+            border-radius: 50%;
+            width: 30px;
+            height: 30px;
+        }
+        .navbar ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+        .navbar ul li {
+            margin-left: 200px;
+        }
+        .navbar ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+        .navbar ul li a.active {
+            font-weight: bold;
+        }
+        .center {
+            text-align: center;
+            margin-top: 50px;
+        }
+        .center h1, .center h2, .center p {
+            color: rgba(20, 17, 13, 0.685);
+            margin: 0;
+        }
+        .social-icons {
+            margin-top: 20px;
+        }
+        .social-icons a {
+            margin-right: 10px;
+        }
+        .social-icons img {
+            width: 50px;
+            height: 50px;
+        }
+        div {
+            text-align: justify;
+            text-justify: inter-word;
+        }
+        .footer {
+            background-color:#333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+            position: static;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+        }
+        .footer p {
+            color: #fff;
+        }
+        .comments {
+            margin-top: 50px;
+            text-align: left;
+        }
+        .comments h2 {
+            margin-bottom: 20px;
+        }
+        .comment-form input[type="text"],
+        .comment-form textarea {
+            padding: 10px;
+            margin-bottom: 10px;
+            width: calc(100% - 20px);
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .comment-form input[type="submit"] {
+            background-color: #333;
+            color: #fff;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <nav class="navbar">
+            <img class="logo" src="logo.png">
+            <ul>
+                <li><a class="active" href="home.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="recipe.html">Recipes</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="center">
+            <img src="images/yema ball.jpeg" style="display: 50px; width: 500px">
+            <h1>Yema balls</h1>
+            <div class="text-justify">
+        <p>Ingredients:</p>
+            <p>1 can (14 oz) sweetened condensed milk</p>
+            <p>2 egg yolks</p>
+            <p>2 egg yolks</p> 
+            <p>1 teaspoon vanilla extract</p>
+            <p>Granulated sugar (for coating)</p>
+           
+        
+        <br>
+        <p>Instructions:</p>
+            <p>1.In a non-stick saucepan, combine the sweetened condensed milk, egg yolks, and butter.</p>
+            <p>2.Place the saucepan over low heat and cook the mixture, stirring constantly, until it thickens and starts to pull away from the sides of the pan. This usually takes about 10-15 minutes.</p>
+            <p>3.Once the mixture has thickened, remove the saucepan from the heat and stir in the vanilla extract. Allow the mixture to cool slightly.</p>
+            <p>4.While the mixture is still warm but cool enough to handle, shape it into small balls or any desired shapes using your hands or a spoon.</p>
+            <p>5.Roll each yema ball in granulated sugar until fully coated.</p>
+            <p>6.Place the yema balls on a plate or tray lined with wax paper to prevent sticking.</p>
+            <p>7.Allow the yema balls to cool completely at room temperature before serving.</p>
+            <p>8.Once cooled, transfer the yema balls to an airtight container for storage. They can be stored at room temperature for a few days or in the refrigerator for longer shelf life.</p>
+            
+            <br>
+            <div class="comments">
+                <h2>Comments</h2>
+                <div class="comment-form">
+                    <form>
+                        <input type="text" name="name" placeholder="Your Name" required><br>
+                        <textarea name="comment" placeholder="Your Comment" required></textarea><br>
+                        <input type="submit" value="Post Comment">
+                    </form>
+                </div>
+            </div>
+
+            <footer class="footer">
+                <p>&copy; 2024 Design by: JC ANOG. All rights reserved.</p>
+            </footer>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

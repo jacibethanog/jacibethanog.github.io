@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Filipino Recipe</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color:#f1eaea;
+        }
+        .wrapper {
+            max-width: 2000px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .navbar {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .navbar img {
+            border-radius: 50%;
+            width: 30px;
+            height: 30px;
+        }
+        .navbar ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+        .navbar ul li {
+            margin-left: 200px;
+        }
+        .navbar ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+        .navbar ul li a.active {
+            font-weight: bold;
+        }
+        .center {
+            text-align: center;
+            margin-top: 50px;
+        }
+        .center h1, .center h2, .center p {
+            color: rgba(20, 17, 13, 0.685);
+            margin: 0;
+        }
+        .social-icons {
+            margin-top: 20px;
+        }
+        .social-icons a {
+            margin-right: 10px;
+        }
+        .social-icons img {
+            width: 50px;
+            height: 50px;
+        }
+        div {
+            text-align: justify;
+            text-justify: inter-word;
+        }
+        .footer {
+            background-color:#333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+            position: static;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+        }
+        .footer p {
+            color: #fff;
+        }
+        .comments {
+            margin-top: 50px;
+            text-align: left;
+        }
+        .comments h2 {
+            margin-bottom: 20px;
+        }
+        .comment-form input[type="text"],
+        .comment-form textarea {
+            padding: 10px;
+            margin-bottom: 10px;
+            width: calc(100% - 20px);
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .comment-form input[type="submit"] {
+            background-color: #333;
+            color: #fff;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <nav class="navbar">
+            <img class="logo" src="images/logo.png">
+            <ul>
+                <li><a class="active" href="home.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="recipe.html">Recipes</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="center">
+            <img src="images/Puto.jpeg" style="display: 50px; width: 500px">
+            <h1>Puto</h1>
+            <div class="text-justify">
+        <p>Ingredients:</p>
+            <p>2 cups rice flour</p>
+            <p>1 cup granulated sugar</p>
+            <p>2 tablespoons baking powder</p>
+            <p>1/4 teaspoon salt</p>
+            <p>1 1/2 cups water</p>
+            <p>1/2 cup evaporated milk</p>
+            <p>1/2 teaspoon vanilla extract</p>
+            <p>Grated cheese or salted egg (optional toppings)</p>
+           
+        
+        <br>
+        <p>Instructions:</p>
+            <p>1.In a large mixing bowl, combine the rice flour, sugar, baking powder, and salt. Mix well to ensure that all ingredients are evenly distributed.</p>
+            <p>2.Add the water, evaporated milk, and vanilla extract to the dry ingredients. Mix until smooth and well combined. The batter should have a pourable consistency similar to pancake batter.</p>
+            <p>3.Prepare your steamer by filling it with water and bringing it to a boil</p>
+            <p>4.While waiting for the steamer to boil, prepare your puto molds by greasing them lightly with oil or lining them with puto wrappers.</p>
+            <p>5.Once the steamer is ready, pour the puto batter into the prepared molds, filling each mold about three-quarters full.</p>
+            <p>6.If desired, sprinkle grated cheese or place slices of salted egg on top of each puto.</p>
+            <p>7.Arrange the filled molds in the steamer basket, making sure there's enough space between each mold to allow steam to circulate.</p>
+            <p>8.Steam the puto over medium heat for about 10-15 minutes or until a toothpick inserted into the center comes out clean.</p>
+            <p>9.Once cooked, remove the puto from the steamer and allow them to cool for a few minutes before removing them from the molds.</p>
+            <p>10.Serve the puto warm as a snack or dessert, and enjoy!</p>
+            
+            <br>
+            <div class="comments">
+                <h2>Comments</h2>
+                <div class="comment-form">
+                    <form>
+                        <input type="text" name="name" placeholder="Your Name" required><br>
+                        <textarea name="comment" placeholder="Your Comment" required></textarea><br>
+                        <input type="submit" value="Post Comment">
+                    </form>
+                </div>
+            </div>
+            <footer class="footer">
+                <p>&copy; 2024 Design by: JC ANOG. All rights reserved.</p>
+            </footer>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Filipino Recipe</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color:#f1eaea;
+        }
+        .wrapper {
+            max-width: 2000px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .navbar {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .navbar img {
+            border-radius: 50%;
+            width: 30px;
+            height: 30px;
+        }
+        .navbar ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+        .navbar ul li {
+            margin-left: 200px;
+        }
+        .navbar ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+        .navbar ul li a.active {
+            font-weight: bold;
+        }
+        .center {
+            text-align: center;
+            margin-top: 50px;
+        }
+        .center h1, .center h2, .center p {
+            color: rgba(20, 17, 13, 0.685);
+            margin: 0;
+        }
+        .social-icons {
+            margin-top: 20px;
+        }
+        .social-icons a {
+            margin-right: 10px;
+        }
+        .social-icons img {
+            width: 50px;
+            height: 50px;
+        }
+        div {
+            text-align: justify;
+            text-justify: inter-word;
+        }
+        .footer {
+            background-color:#333;
+            padding: 10px;
+            text-align: center;
+            position: static;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+        }
+        .footer p {
+            color: #fff;
+        }
+        .comments {
+            margin-top: 50px;
+            text-align: left;
+        }
+        .comments h2 {
+            margin-bottom: 20px;
+        }
+        .comment-form input[type="text"],
+        .comment-form textarea {
+            padding: 10px;
+            margin-bottom: 10px;
+            width: calc(100% - 20px);
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .comment-form input[type="submit"] {
+            background-color: #333;
+            color: #fff;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <nav class="navbar">
+            <img class="logo" src="images/logo.png">
+            <ul>
+                <li><a class="active" href="home.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="recipe.html">Recipes</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="center">
+            <img src="images/butchi.jpeg" style="display: 50px; width: 500px">
+            <h1>Butchi</h1>
+            <div class="text-justify">
+        <p>Ingredients:</p>
+
+            <p>1 cup glutinous rice flour</p>
+            <p>1/4 cup granulated sugar</p>
+            <p>1/2 cup water</p>
+            <p>1/2 cup cooked sweet mung bean paste</p>
+            <p>White sesame seeds (for coating)</p>
+            <p>Oil for frying</p>
+            <p>1box cheese</p>
+            
+        <br>
+        <p>Instructions:</p>
+            <p>1.In a bowl, combine the glutinous rice flour, sugar, and water. Mix well until a smooth dough forms. If the dough is too dry, add a little more water; if it's too wet, add more flour.</p>
+            <p>2.In a bowl, combine the glutinous rice flour, sugar, and water. Mix well until a smooth dough forms. If the dough is too dry, add a little more water; if it's too wet, add more flour.</p>
+            <p>3.Flatten each portion of dough in the palm of your hand, then place a small amount of sweet mung bean paste in the center.</p>
+            <p>4.Gather the edges of the dough to enclose the filling and roll it into a smooth ball. Repeat with the remaining dough and filling.</p>
+            <p>5.Roll each ball of dough in sesame seeds until evenly coated.</p>
+            <p>6.Heat oil in a deep fryer or heavy-bottomed pot to 350°F (180°C)</p>
+            <p>7.Carefully add the coated balls of dough to the hot oil, a few at a time, to avoid overcrowding the pot.</p>
+            <p>8.Fry the butchi until golden brown and crispy, about 3-4 minutes, turning occasionally to ensure even cooking.</p>
+            <p>9.Once cooked, remove the butchi from the oil using a slotted spoon and drain on paper towels to remove excess oil.</p>
+            <p>10.Serve the butchi warm as a delicious snack or dessert. Enjoy!</p>
+            <p>Note: You can also experiment with different fillings for your butchi, such as sweetened red bean paste or shredded coconut mixed with sugar. Be creative and customize the recipe to your taste preferences!</p>
+            
+    <br>
+    <div class="comments">
+        <h2>Comments</h2>
+        <div class="comment-form">
+            <form>
+                <input type="text" name="name" placeholder="Your Name" required><br>
+                <textarea name="comment" placeholder="Your Comment" required></textarea><br>
+                <input type="submit" value="Post Comment">
+            </form>
+        </div>
+    </div>
+            <footer class="footer">
+                <p>&copy; 2024 Design by: JC ANOG. All rights reserved.</p>
+            </footer>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
